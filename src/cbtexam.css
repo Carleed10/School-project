@@ -1,0 +1,21 @@
+.number-div2{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px ;
+}
+
+.number-div2 button{
+    width: 31px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: rgb(13,110,253);
+    color: white;
+    border: none;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.048);
+    font-size: 13px;
+}

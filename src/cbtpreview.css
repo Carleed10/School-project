@@ -1,0 +1,225 @@
+.body-cover{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(241,247,253);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.div-cover{
+    width: 95%;
+    height: fit-content;
+    /* background-color: red; */
+}
+.top{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 97%;
+    /* background-color: aqua; */
+}
+.b{
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.b h5{
+    font-size: 16px;
+}
+.pro{
+    /* width: 90%; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro progress{
+    width: 70%;
+    margin-top: 5px;
+}
+.q{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.k{
+    width: 18%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: crimson; */
+}
+.question{
+    width: 49.5%;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+}
+.question p{
+    font-size: 15px;
+    color: rgb(38, 123, 250);
+    font-weight: 600;
+}
+.question h6{
+    font-size: 17px;
+}
+.answer{
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: chartreuse; */
+}
+.answer button{
+    height: 67px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: 0px 3px 2px whitesmoke;
+}
+.g{
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.g p{
+    margin-top: 10px;
+}
+.div{
+    width: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: start;
+}
+
+
+
+
+
+
+.next-div{
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.next-div button{
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13,110,253);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 2px 9px rgba(108, 156, 228, 0.363);
+}
+
+
+.number-div{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px ;
+}
+
+.number-div button{
+    width: 31px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid rgba(192, 231, 231, 0.418);
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.048);
+    font-size: 13px;
+}
+
+
+
+/* media query */
+@media (max-width: 1115px) {
+    .q{
+        width: 40%;
+    }
+   .k{
+    width: 30%;
+   }
+   .k p{
+    font-size: 14px;
+   }
+}
+
+@media (max-width: 660px) {
+    .top{
+        height: fit-content;
+        padding: 10px 0px;
+    }
+    .pro{
+        display: block;
+    }
+    .flex{
+        display: block;
+    }
+    .question{
+        width: 100%;
+    }
+    .answer{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .b{
+        width: 75%;
+        /* background-color: aqua; */
+        font-size: 14px;
+    }
+    .q{
+        width: 85%;
+        /* background-color: gold; */
+    }
+   .k{
+    width: 100%;
+   }
+}

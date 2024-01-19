@@ -1,0 +1,110 @@
+.inner{
+    width: 95%;
+    height: fit-content;
+    background-color: rgb(241,247,253);
+    margin-top: 20px;
+    /* border: 3px solid rgb(33, 121, 253); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-test{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.divwrap{
+    width: 95%;
+    /* background-color: blueviolet; */
+}
+.JSS2{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+.que{
+    width: 49.5%;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+}
+.que p{
+    font-size: 15px;
+    color: rgb(38, 123, 250);
+    font-weight: 600;
+}
+.que h6{
+    font-size: 17px;
+}
+.ans{
+    width: 49.5%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* background-color: chartreuse; */
+}
+.ans button{
+    height: 115px;
+    padding: 20px;
+    background-color: white;
+    color: rgb(13,110,253);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: 0px 3px 2px whitesmoke;
+}
+.option-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-option{
+    width: 90px;
+    height: 90px;
+    background-color: chartreuse;
+    margin-left: 60px;
+}
+
+
+@media (max-width: 660px) {
+    .top{
+        height: fit-content;
+        padding: 10px 0px;
+    }
+    .pro{
+        display: block;
+    }
+    .flex-test{
+        display: block;
+    }
+    .que{
+        width: 100%;
+    }
+    .ans{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .b{
+        width: 75%;
+        /* background-color: aqua; */
+        font-size: 14px;
+    }
+    .q{
+        width: 85%;
+        /* background-color: gold; */
+    }
+   .k{
+    width: 100%;
+   }
+}
