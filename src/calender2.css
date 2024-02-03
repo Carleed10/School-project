@@ -1,0 +1,70 @@
+.calender-div2{
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+.div-flex{
+    width: 100%;
+    height: fit-content;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 30px 0px;
+}
+.beside{
+    width: 33%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.side-flex{
+    width: 100%;
+    height: fit-content;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.birthday, .events{
+    width: 48%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.this-month{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.october{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.celebrant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+     /* background-color: chartreuse; */
+}
+.student-picture{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.name{
+    text-align: end;
+}
+.holidays{
+    margin-top: 23px;
+}

@@ -5,7 +5,11 @@ import "./Fonts/WEB/css/satoshi.css"
 import Cbtpreview from './Pages/Cbtpreview'
 import Cbttest from './Pages/Cbttest'
 import Cbtexam from './Pages/Cbtexam'
-import Newcbttest from './Pages/Newcbttest'
+import Newcbt from './Pages/Newcbt'
+import Calender1 from './Pages/Calender1'
+import Calender2 from './Pages/Calender2'
+import Calender3 from './Pages/Calender3'
+
 
 
 
@@ -16,7 +20,10 @@ const App = () => {
     <Route path='/cbtpreview' element={<Cbtpreview/>}></Route>
     <Route path='/cbttest' element={<Cbttest/>}></Route>
     <Route path='/cbtexam' element={<Cbtexam/>}></Route>
-    <Route path='/newcbttest' element={<Newcbttest/>}></Route>
+    <Route path='/newcbt' element={<Newcbt/>}></Route>
+    <Route path='/calender1' element={<Calender1/>}></Route>
+    <Route path='/calender2' element={<Calender2/>}></Route>
+    <Route path='/calender3' element={<Calender3/>}></Route>
     </Routes>
   )
 }

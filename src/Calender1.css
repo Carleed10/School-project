@@ -1,0 +1,114 @@
+.bg-cover{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(241,247,253);
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav button{
+    border-radius: 4px;
+    border: none;
+    background: none;
+}
+.text{
+    display: flex;
+    gap: 10px;
+}
+.addevent{
+    display: flex;
+    gap: 10px;
+}
+.addevent button{
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.233);
+}
+.calender-div{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px 0px 30px 0px;
+}
+.calender-top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.date, .month{
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid whitesmoke;
+}
+.month{
+    width: 140px;
+}
+.date button{
+    background: none;
+    border: none;
+    border-radius: 40px;
+}
+.calender-next{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.calender-next h4{
+    font-size: 15px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+    
+}
+th{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+td{
+    width: 100px;
+    height: 120px;
+    padding: 10px;
+}
+.td-div{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.td-div p{
+    text-align: end;
+}
+.td-div h6{
+    color: white;
+    margin-top: 45px;
+}
+
+
+
+
+@media (max-width: 540px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
